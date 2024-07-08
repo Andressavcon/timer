@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Averia%20Gruesa%20Libre:700|Averia%20Gruesa%20Libre:400');
+
+:root {
+  --text: #f7f3f4;
+  --text2: #ffffff85;
+  --background: #0a0507;
+  --background2: #651f3391;
+  --primary: #b04a67;
+  --secondary: #651f33;
+  --accent: #a12145;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: 'Averia Gruesa Libre';
+  font-weight: 400;
+  width: 80%;
+  min-height: 100vh;
+  margin: 2rem auto;
+  text-align: center;
+  background: url('../images/bkg.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: var(--text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Averia Gruesa Libre';
+  font-weight: 700;
+}
+
+html {
+  font-size: 100%;
+}
+
+h2 {
+  font-size: 3.158rem;
+}
+
+h4 {
+  font-size: 1.777rem;
+  color: var(--background);
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 1.333rem;
+}
+
+i {
+  color: var(--text);
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+input {
+  margin: 1rem 0;
+  border: none;
+  text-align: center;
+  background: none;
+  color: var(--text);
+}
+
+input::placeholder {
+  color: var(--text);
+}

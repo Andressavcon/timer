@@ -1,0 +1,6 @@
+.title {
+  padding: 1rem;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), -2px -2px 5px rgba(0, 0, 0, 0.5),
+    2px -2px 5px rgba(0, 0, 0, 0.5), -2px 2px 5px rgba(0, 0, 0, 0.5);
+}
