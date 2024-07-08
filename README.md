@@ -2,6 +2,8 @@
 
 Aplicação de cronômetro com funcionalidades adicionais de título dinâmico e nota.
 
+[Timer](https://timer0807.netlify.app/)
+
 ## Funcionalidades ⚙️
 
 - **TitleTimer**
